@@ -24,3 +24,4 @@ Route::get('/lista/visualizar/{id}',['as' => 'visualizar', 'uses' => 'ProdutoCon
     ->where('id','[0-9]+');
 Route::get('/produto/novo',['as' => 'novo','uses' => 'ProdutoController@novo']);
 Route::post('/produto/novo',['as' => 'novo','uses' => 'ProdutoController@novo']);
+Route::get('/produto/exportar',['as' => 'exportar','uses' => 'ProdutoController@exportar']);
