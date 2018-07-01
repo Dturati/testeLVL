@@ -10,6 +10,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="{{route('listar')}}">Home</a></li>
                 <li><a href="{{route('novo')}}">Novo</a></li>
+                <li><a href="{{route('exportar')}}">Exportar</a></li>
             </ul>
         </div>
     </nav>

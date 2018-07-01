@@ -45,4 +45,9 @@ class ProdutoController extends Controller
         return view('listagem/novo');
     }
 
+    public function exportar()
+    {
+        $res = (new Produto())->exportar(Produto::all());
+    }
+
 }
