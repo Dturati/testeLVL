@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+#    image: totemgesp/gesp:versao1
+    build: .
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+     - /var/projetos/php_e_laravel/estoque:/var/projetos/php_e_laravel/estoque
